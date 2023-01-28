@@ -35,13 +35,12 @@
             <nav class="navbar navbar-expand-md navbar-light bg-header" style="z-index: 1000">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="logos/logo_blanco_rombo_rojo.png" alt="logo mundo ceramico" class="logo-bran-size"
-                            width="170" height="70">
+                        <img src="logos/logo_blanco_rombo_rojo.png" alt="logo mundo ceramico" class="" width="170"
+                            height="70">
                     </a>
                     <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                        {{-- <span class="navbar-toggler-icon"></span> --}}
                         <i class="bi bi-grid-fill text-white fs-1"></i>
                     </button>
 
@@ -71,21 +70,18 @@
             </nav>
             <div class="container">
                 <div class="header-items">
-                    {{-- <div class="header-icons">
-                        <a href="https://www.instagram.com/naturalstonessv/" target="_blank">
-                            <img src="/img/instagram.svg" class="h-icon" alt="header-icons">
-                        </a>
-                        <a href="https://www.facebook.com/naturalstones.es" target="_blank">
-                            <img src="/img/facebook.svg" class="h-icon" alt="header-icons">
-                        </a>
-                    </div> --}}
                     <div class="header-text">
-                        <h1 class="h-title">MUNDO CÉRAMICO</h1>
-                        <p class="h-subtitle">Líderes en pisos en El Salvador, <br> con más de 30 años de experiencia.
+                        <h1 class="h-title"><span class="text-primary-red">Mundo</span> Céramico</h1>
+                        <p class="h-subtitle">Líderes en pisos céramicos y acabados para la industria, el comercio
+                            y el
+                            hogar con más de 30 años de experiencia.
                         </p>
+                        <a href="#news" target="" class="btn-header">Explorar Más <i
+                                class="bi bi-arrow-right fs-4"></i></a>
                     </div>
                     <div class="header-image">
-                        <img src="img/cabinet.jpg" alt="header-img" class="header-img">
+                        <img src="https://img.freepik.com/premium-photo/modern-style-kitchen-interior-design-with-dark-blue-wall-3d-rendering_41470-4082.jpg?w=826"
+                            alt="header-img" class="header-img">
                     </div>
                 </div>
             </div>
@@ -107,26 +103,26 @@
             </a> --}}
             <!-- WhatsApp Button End -->
 
-            <!-- Start Summer Sale Section -->
-            <section class="summer-sale-section">
-                <div class="summer-sale container">
-                    <h1 class="summer-sale-title" id="news">
+            <!-- Start Sale Section -->
+            <section class="sale-section" id="news">
+                <div class="container">
+                    <h1 class="sale-title">
                         NOVEDADES
                     </h1>
-                    <p class="summer-sale-subtitle">
+                    <p class="sale-subtitle">
                         15 % de descuento válido 20 y 26 de Enero. <br>
                         Encuentra el material ideal para tus proyectos.
                     </p>
                 </div>
-                <div class="container summer-reveal pb-5">
+                <div class="container sale-reveal pb-5">
                     <div class="row row-cols-1 row-cols-md-3 g-2 pt-4">
                         <div class="col">
                             <div class="card h-100">
                                 <img src="img/sink.jpg" class="card-img-top zoom" alt="sink">
                                 <div class="card-body">
-                                    <p class="card-text-bold">Praesent dictum amet <br>
-                                        <span class="card-text-regular">est lacus accumsan vel lacus ac.</span>
+                                    <p class="sale-text-bold mb-0">Praesent dictum amet
                                     </p>
+                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
                                 </div>
                             </div>
                         </div>
@@ -134,9 +130,9 @@
                             <div class="card h-100">
                                 <img src="img/kitchen.jpg" class="card-img-top zoom" alt="kitchen">
                                 <div class="card-body">
-                                    <p class="card-text-bold">Praesent dictum amet <br>
-                                        <span class="card-text-regular">est lacus accumsan vel lacus ac.</span>
+                                    <p class="sale-text-bold mb-0">Praesent dictum amet
                                     </p>
+                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
                                 </div>
                             </div>
                         </div>
@@ -144,9 +140,9 @@
                             <div class="card h-100">
                                 <img src="img/sink.jpg" class="card-img-top zoom" alt="sink">
                                 <div class="card-body">
-                                    <p class="card-text-bold">Praesent dictum amet <br>
-                                        <span class="card-text-regular">est lacus accumsan vel lacus ac.</span>
+                                    <p class="sale-text-bold mb-0">Praesent dictum amet
                                     </p>
+                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,26 +150,30 @@
                 </div>
                 <div class="container shop-banner">
                     <div class="shop-banner-item">
-                        <p class="text-white fs-1 fw-bold">Dictum Amet Praesent Lacus,<span class="fw-normal"> Est Lsac
+                        <p class="shop-banner-title">Dictum Amet Praesent Lacus,<span class="fw-normal"> Est Lsac
                                 Loremtes</span>
                         </p>
 
-                        <p class="shop-banner-p">Officiis tenetur delectus nisi ipsum, nesciunt
+                        <p class="shop-banner-subtitle">Officiis tenetur delectus nisi ipsum, nesciunt
                             tempore provident?</p>
                     </div>
                     <div class="shop-banner-item">
-                        <a href="#" target="_blank" class="btn-shop">TIENDA</a>
+                        <a href="#" target="_blank" class="btn-shop">TIENDA<i class="bi bi-cart"></i></a>
                     </div>
                 </div>
             </section>
-            <!-- Summer Sale Section End -->
+            <!-- Sale Section End -->
 
             <!-- Start Services section -->
             <section class="services-section">
                 <div class="container">
-                    <h1 class="services-title text-center" id="services">
+                    <h1 class="services-title" id="services">
                         SERVICIOS
                     </h1>
+                    <p class="services-subtitle">
+                        15 % de descuento válido 20 y 26 de Enero. <br>
+                        Encuentra el material ideal para tus proyectos.
+                    </p>
                 </div>
                 <div class="container service-reveal">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -186,8 +186,10 @@
                                             class="icon-services" alt="icon-services">
                                     </div>
                                     <div class="card-services-info">
-                                        <p class="mb-0">Lorem ipsum dolor stuiet tea sit amet, </p><span
-                                            class="text-primary-red">consectetur adipisicing elit.</span>
+                                        <h4 class="card-services-subtitle">LOREM</h4>
+                                        <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
+                                            iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
+                                            reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -201,6 +203,7 @@
                                             class="icon-services" alt="icon-services">
                                     </div>
                                     <div class="card-services-info">
+                                        <h4 class="card-services-subtitle">IPSUM</h4>
                                         <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
                                             iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
                                             reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
@@ -218,9 +221,10 @@
                                     </div>
 
                                     <div class="card-services-info">
-                                        <p class="mb-0">Quia architecto <span class="text-primary-red">qui
-                                                dignissimos</span> , consequatur quod facilis
-                                            veritatis.</p>
+                                        <h4 class="card-services-subtitle">DOLOR</h4>
+                                        <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
+                                            iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
+                                            reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -230,84 +234,20 @@
             </section>
             <!-- Services section End -->
 
-
-            <!-- Start Recommendations Section -->
-            {{-- <section class="recommendations">
-                <div class="container">
-                    <h1 class="recommendations-title">
-                        CATEGORÍAS
-                    </h1>
-                </div>
-                <div class="container recommendations-reveal">
-                    <div class="row row-cols-1 row-cols-md-3 g-5 pb-5">
-                        <div class="col mx-auto">
-                            <div class="card-rem h-100">
-                                <img src="img/marmol-crema-marfil.jpg" class="card-img-top-rem img-fluid"
-                                    alt="marmol-cream-marfil">
-                                <div class="card-body">
-                                    <p class="card-text-bold-rem">Marmol Crema Marfil</p>
-                                    <p class="card-text-regular-rem">Lorem ipsum dolor sit amet,
-                                        consec adipiscing elit.</p>
-                                    <div class="card-items-rem">
-                                        <a href="#" class="btn-card-rem">Recomendación: </a>
-                                        <img src="/img/tree.svg" class="icon-card-rem" alt="Card-img">
-                                        <img src="/img/cart.svg" class="icon-card-rem" alt="Card-img">
-                                        <img src="/img/stopwatch.svg" class="icon-card-rem" alt="Card-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-rem h-100">
-                                <img src="img/cuarzo-negro-diamante.jpg" class="card-img-top-rem img-fluid"
-                                    alt="cuarzo-negro-diamente">
-                                <div class="card-body">
-                                    <p class="card-text-bold-rem">Cuarzo Negro Diamante</p>
-                                    <p class="card-text-regular-rem">Lorem ipsum dolor sit amet,
-                                        consec adipiscing elit.</p>
-                                    <div class="card-items-rem">
-                                        <a href="#" class="btn-card-rem">Recomendación: </a>
-                                        <img src="/img/tree.svg" class="icon-card-rem" alt="Card-img">
-                                        <img src="/img/stopwatch.svg" class="icon-card-rem" alt="Card-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-rem h-100">
-                                <img src="img/travertino-andes-gold-brillado.jpg" class="card-img-top-rem img-fluid"
-                                    alt="travertino-andes-gold">
-                                <div class="card-body">
-                                    <p class="card-text-bold-rem">Travertino Andes Gold</p>
-                                    <p class="card-text-regular-rem">Lorem ipsum dolor sit amet,
-                                        consec adipiscing elit.</p>
-                                    <div class="card-items-rem">
-                                        <a href="#" class="btn-card-rem">Recomendación: </a>
-                                        <img src="/img/tree.svg" class="icon-card-rem" alt="Card-img">
-                                        <img src="/img/cart.svg" class="icon-card-rem" alt="Card-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
-            <!-- Recommendations Section End -->
-
-
             <!-- Start Slider Section -->
-            <section class="carousels">
-                <div class="container">
-                    <h1 class="recommendations-title">
+            <section class="categories-section">
+                <div class="container" id="categories">
+                    <h1 class="categories-title">
                         CATEGORÍAS
                     </h1>
+                    <p class="categories-subtitle">
+                        15 % de descuento válido 20 y 26 de Enero. <br>
+                        Encuentra el material ideal para tus proyectos.
+                    </p>
                 </div>
-                <div class="row pb-5">
+                <div class="row pb-5 categories-reveal">
                     <!-- Slider One -->
                     <div class="col-md-4 no-padding-slider">
-                        <div class="slider-header">
-                            <p>Lorem ipsum dolor</p>
-                        </div>
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
                             <div class="carousel-indicators">
@@ -351,20 +291,16 @@
 
                         </div>
                         <div class="slider-data">
+                            <div class="slider-header">
+                                <p>Piso</p>
+                            </div>
                             <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
                                 elit.</p>
-                            <div class="slider-item">
-                                <img src="/img/arrows-fullscreen.svg" class="icon-services" alt="icon-services">
-                                <p class="slider-item-text">Sit amet elit.</p>
-                            </div>
                         </div>
                     </div>
 
                     <!-- Slider Two -->
                     <div class="col-md-4 no-padding-slider">
-                        <div class="slider-header">
-                            <p>Lorem ipsum dolor</p>
-                        </div>
                         <div id="carouselExampleIndicatorsTwo" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button class="carousel-control-prev" type="button"
@@ -406,20 +342,16 @@
 
                         </div>
                         <div class="slider-data">
+                            <div class="slider-header">
+                                <p>Azulejo</p>
+                            </div>
                             <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
                                 elit.</p>
-                            <div class="slider-item">
-                                <img src="/img/arrows-fullscreen.svg" class="icon-services" alt="icon-services">
-                                <p class="slider-item-text">Sit amet elit.</p>
-                            </div>
                         </div>
                     </div>
 
                     <!-- Slider Three -->
                     <div class="col-md-4 no-padding-slider">
-                        <div class="slider-header">
-                            <p>Lorem ipsum dolor</p>
-                        </div>
                         <div id="carouselExampleIndicatorsThree" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
 
@@ -463,12 +395,11 @@
 
                         </div>
                         <div class="slider-data">
+                            <div class="slider-header">
+                                <p>Madera</p>
+                            </div>
                             <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
                                 elit.</p>
-                            <div class="slider-item">
-                                <img src="/img/arrows-fullscreen.svg" class="icon-services" alt="icon-services">
-                                <p class="slider-item-text">Sit amet elit.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
