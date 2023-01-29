@@ -407,9 +407,53 @@
             <!-- Slider Section End -->
 
             <!-- Start Contact Us Section -->
-            <section class="contact-section">
-
-            </section>
+            <div class="container">
+                <section class="contact-section">
+                    <div class="contact-left">
+                        <h1 class="contact-title">
+                            CONTACTO
+                        </h1>
+                        {{-- <p class="contact-subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p> --}}
+                        <div class="contact-content">
+                            <div class="contanct-items">
+                                <i class="bi bi-envelope-fill fs-3 text-primary-red"></i>
+                                <p class="contact-text mb-0">
+                                    servicioalcliente@mundo-ceramico.com
+                                </p>
+                            </div>
+                            <div class="contanct-items">
+                                <i class="bi bi-telephone-fill fs-3 text-primary-red"></i>
+                                <p class="contact-text mb-0">
+                                    +503 2254 5999
+                                </p>
+                            </div>
+                            <div class="contanct-items">
+                                <i class="bi bi-geo-alt-fill fs-3 text-primary-red"></i>
+                                <p class="contact-text mb-0">
+                                    Autopista Sur, Reparto Los Héroes, Boulevard Los Próceres Nº1-A. 503 San Salvador,
+                                    El Salvador
+                                </p>
+                            </div>
+                            <div class="contanct-items">
+                                <i class="bi bi-clock-fill fs-3 text-primary-red"></i>
+                                <p class="contact-text mb-0">
+                                    Lunes a Viernes: 8:00 am - 18:00 pm <br>
+                                    Sábado: 8:00 am - 2:00 pm <br>
+                                    Domingo: CERRADO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.577186660071!2d-89.2263677198777!3d13.683454725675746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63304aef05fb9b%3A0x49730054de7f4352!2sMundo%20Cer%C3%A1mico!5e0!3m2!1ses!2ssv!4v1675017168642!5m2!1ses!2ssv"
+                            width="600" height="450" style="border:0;box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </div>
             <!-- Contact Us Section End -->
 
 

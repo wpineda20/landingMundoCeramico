@@ -263,6 +263,7 @@ html, body{
 }
 
 // Categories
+
 .categories-section{
     // background-color: $white !important;
     background: linear-gradient(90deg, #FFFFFF 0%, #F0F0F0 34.9%, #F0F0F0 87.5%);
@@ -330,6 +331,47 @@ html, body{
     font-weight: bold !important;
 }
 
+// Contact section
+
+.contact-section{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+}
+.contact-title{
+    font-weight: bold;
+    font-size: $font-size-title;
+    text-transform: uppercase;
+    color: $primaryBlue;
+    text-align: center;
+}
+.contact-subtitle{
+    font-size: $font-size-normal;
+    line-height: $line-height;
+    color: $black;
+    text-align: center;
+}
+.contact-content{
+    // display: flex;
+    // justify-content: flex-start;
+    // flex-direction: row;
+}
+.contact-text{
+    font-size: $font-size-normal;
+    color: $black;
+    font-weight: bold;
+}
+.contanct-items{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-bottom: 2rem;
+    
+}
+
 // Footer
 
 .bg-footer{
@@ -339,7 +381,6 @@ html, body{
     background-color: $primaryBlue;
     padding: 1.5rem 0;
 }
-
 .text-bold-footer{
     font-size: $font-size-normal;
     font-weight: bold;
@@ -351,13 +392,11 @@ html, body{
     font-size: $font-size-normal;
     color: $white;
 }
-
 .footer-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .footer-social-icons{
     display: flex;
     align-items: center;
@@ -370,6 +409,7 @@ html, body{
     filter: invert(97%) sepia(100%) saturate(14%) hue-rotate(235deg) brightness(104%) contrast(102%);
     cursor: pointer;
 }
+
 // Scroll To Top Button 
 
 .btnScrollToTop{
@@ -391,7 +431,6 @@ html, body{
     opacity: 0;
     transition: 0.5s;
 }
-
 .btnScrollToTop.active{
     visibility: visible;
     opacity: 1;
@@ -403,7 +442,6 @@ html, body{
     width: 0.9rem;
     background-color: $lightGrey;
 }
-
 ::-webkit-scrollbar-thumb{
     border-radius: 0.5rem;
     background-color: $grey;
@@ -411,7 +449,6 @@ html, body{
 ::-webkit-scrollbar-thumb:hover{
     background-color: $grey;
 }
-
 
 // WhastApp Button
 
@@ -437,13 +474,10 @@ html, body{
     -webkit-box-shadow: 3px 3px 1px 1px rgba(112, 111, 111, 0.75);
     -moz-box-shadow: 3px 3px 1px 1px rgba(112, 111, 111, 0.75);
 }
-
 .btn-whatsapp:hover{
     color: $white;
     transform: translateY(-15px);
 }
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
@@ -506,8 +540,23 @@ html, body{
     .header{
         min-height: 30rem;
     }
-
+    .contact-section{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contanct-items{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .contact-right{
+        padding-top: 2rem;
+        justify-content: center;
+    }
  }
+
 /* Extra small devices (Ipads, 600px and down) */
 @media only screen and (max-width: 820px) {
     .header {

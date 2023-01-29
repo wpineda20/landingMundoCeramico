@@ -40,3 +40,9 @@ sr.reveal(`.services-title, .services-subtitle, .service-reveal`, {
 sr.reveal(`.categories-title, .categories-subtitle, .categories-reveal`, {
     origin: "left",
 });
+
+/**
+ * Categories Reveal Animations
+ */
+
+sr.reveal(`.contact-section`, { delay: 900, origin: "bottom" });
