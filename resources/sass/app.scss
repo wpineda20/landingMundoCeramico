@@ -331,28 +331,24 @@ html, body{
 }
 
 // Footer
+
 .bg-footer{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    // background-image: url("/img/textura.jpg") !important;
     background-color: $primaryBlue;
+    padding: 1.5rem 0;
 }
 
 .text-bold-footer{
-    font-size: 20px;
+    font-size: $font-size-normal;
     font-weight: bold;
-    font-family: $font-family-poppins;
-    line-height: 20px;
     color: $white;
     text-transform: uppercase;
     
 }
 .text-regular-footer{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: $font-family-poppins;
-    line-height: 20px;
+    font-size: $font-size-normal;
     color: $white;
 }
 
@@ -362,6 +358,18 @@ html, body{
     align-items: center;
 }
 
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icon{
+    color: $white;
+    height: 20px;
+    filter: invert(97%) sepia(100%) saturate(14%) hue-rotate(235deg) brightness(104%) contrast(102%);
+    cursor: pointer;
+}
 // Scroll To Top Button 
 
 .btnScrollToTop{

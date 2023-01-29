@@ -97,7 +97,7 @@
             <!-- Scroll To Top Button End -->
 
             <!-- Start WhatsApp Button -->
-            {{-- <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=50372842854" target="_blank"
+            {{-- <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=50377001782" target="_blank"
                 title='Escribemos a nuestro WhatsApp!'>
                 <i class="bi bi-whatsapp"></i>
             </a> --}}
@@ -406,35 +406,56 @@
             </section>
             <!-- Slider Section End -->
 
+            <!-- Start Contact Us Section -->
+            <section class="contact-section">
+
+            </section>
+            <!-- Contact Us Section End -->
+
+
         </main>
         <!-- Main End -->
 
         <!-- Start Footer -->
         <footer class="footer bg-footer">
             <div class="container">
-                <div class=" pt-5 pb-5 ">
-                    <div class="footer-items">
-                        <div class="footer-content">
-                            <p class="text-bold-footer">Autopista Sur, Reparto Los Héroes, Boulevard Los Próceres Nº1-A.
-                                <br>
-                                San Salvador, El Salvador
-                            </p>
-                            <p class="text-regular-footer">+ 503 2254 5999</p>
-                            <p class="text-regular-footer">servicioalcliente@mundo-ceramico.com</p>
-                        </div>
-                        <div class="footer-content">
-                            <p class="text-regular-footer">Facebook</p>
-                            <p class="text-regular-footer mb-5">Instragram</p>
-                            <p class="text-regular-footer">&copy; 2022 Mundo Céramico. All rights reserved</p>
+                <div class="footer-items">
+                    <div class="footer-content">
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="logos/logo_blanco_rombo_rojo.png" class="mb-2" alt="logo mundo ceramico" class=""
+                                width="170" height="70">
+                        </a>
+                    </div>
+                    <div class="footer-content">
+                        <p class="text-regular-footer mb-0">&copy; 2022 Mundo Céramico. All rights reserved</p>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-social-icons">
+                            <span>
+                                <a href="https://www.facebook.com/MundoCeramicoESA?locale=es_LA" target="_blank">
+                                    <img src="logos/facebook-f.svg" alt="facebook munco ceramico" class="social-icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.instagram.com/mundoceramicosv/?hl=es" target="_blank">
+                                    <img src="logos/instagram.svg" alt="instagram mundo ceramico" class="social-icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://api.whatsapp.com/send?phone=50377001782" target="_blank">
+                                    <img src="logos/whatsapp.svg" alt="pinterest mundo ceramico" class="social-icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#" target="_blank">
+                                    <img src="logos/pinterest-p.svg" alt="pinterest mundo ceramico" class="social-icon">
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-
-        {{--
-        <example-component /> --}}
-        <!-- Footer End -->
 
     </div>
 </body>
