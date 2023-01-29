@@ -407,7 +407,7 @@
             <!-- Slider Section End -->
 
             <!-- Start Contact Us Section -->
-            <div class="container">
+            <div class="container" id="contact">
                 <section class="contact-section">
                     <div class="contact-left">
                         <h1 class="contact-title">

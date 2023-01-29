@@ -609,6 +609,24 @@ html, body{
         padding: 0.5rem 8rem;
         max-width: 100%;
     } 
+    .contact-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contanct-items {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .contact-right{
+        padding-top: 2rem;  
+    }
+    .contact-right, iframe {
+        width: 100% !important;
+    }
 }
 
 /* Between 768px and 820px */
