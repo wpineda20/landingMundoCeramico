@@ -38,11 +38,11 @@
                         <img src="logos/logo_blanco_rombo_rojo.png" alt="logo mundo ceramico" class="" width="170"
                             height="70">
                     </a>
-                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    {{-- <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                         <i class="bi bi-grid-fill text-white fs-1"></i>
-                    </button>
+                    </button> --}}
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
