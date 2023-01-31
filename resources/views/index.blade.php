@@ -30,7 +30,9 @@
 </head>
 
 <body>
+    <!-- App -->
     <div id="app">
+        <!-- Header -->
         <div class="banner header">
             <nav class="navbar navbar-expand-md navbar-light bg-header" style="z-index: 1000">
                 <div class="container">
@@ -65,9 +67,11 @@
                                 <a class="nav-link nav-titles" href="#contact">Contacto</a>
                             </li>
                         </ul>
+                        <!-- /.Right Side Of Navbar -->
                     </div>
                 </div>
             </nav>
+
             <div class="container">
                 <div class="header-items">
                     <div class="header-text">
@@ -86,25 +90,27 @@
                 </div>
             </div>
         </div>
+        <!-- /.Header -->
 
-        <!-- Start Main -->
+        <!-- Main -->
         <main class="main">
 
-            <!-- Start Scroll To Top Button -->
+            <!-- Scroll To Top Button -->
             <button class="btnScrollToTop" onclick="scrollToTop();">
                 <i class="bi bi-arrow-up"></i>
             </button>
-            <!-- Scroll To Top Button End -->
+            <!-- /.Scroll To Top Button -->
 
-            <!-- Start WhatsApp Button -->
+            <!-- WhatsApp Button -->
             {{-- <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=50377001782" target="_blank"
                 title='Escribemos a nuestro WhatsApp!'>
                 <i class="bi bi-whatsapp"></i>
             </a> --}}
-            <!-- WhatsApp Button End -->
+            <!-- /.WhatsApp Button -->
 
-            <!-- Start Sale Section -->
+            <!-- Sale Section -->
             <section class="sale-section" id="news">
+                <!-- Sale Titles -->
                 <div class="container">
                     <h1 class="sale-title">
                         NOVEDADES
@@ -114,6 +120,8 @@
                         Encuentra el material ideal para tus proyectos.
                     </p>
                 </div>
+                <!-- /.Sale Titles -->
+                <!-- Sale Cards -->
                 <div class="container sale-reveal pb-5">
                     <div class="row row-cols-1 row-cols-md-3 g-2 pt-4">
                         <div class="col">
@@ -148,6 +156,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- /.Sale Cards -->
+                <!-- Sale Banner -->
                 <div class="container shop-banner">
                     <div class="shop-banner-item">
                         <p class="shop-banner-title">Dictum Amet Praesent Lacus,<span class="fw-normal"> Est Lsac
@@ -161,11 +171,13 @@
                         <a href="#" target="_blank" class="btn-shop">TIENDA<i class="bi bi-cart"></i></a>
                     </div>
                 </div>
+                <!-- /.Sale Banner -->
             </section>
-            <!-- Sale Section End -->
+            <!-- /.Sale Section -->
 
-            <!-- Start Services section -->
+            <!-- Services section -->
             <section class="services-section">
+                <!-- Services Titles -->
                 <div class="container">
                     <h1 class="services-title" id="services">
                         SERVICIOS
@@ -175,6 +187,8 @@
                         Encuentra el material ideal para tus proyectos.
                     </p>
                 </div>
+                <!-- /.Services Titles -->
+                <!-- Services Cards -->
                 <div class="container service-reveal">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
@@ -231,11 +245,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- /.Services Cards -->
             </section>
-            <!-- Services section End -->
+            <!-- /.Services section -->
 
-            <!-- Start Slider Section -->
+            <!-- Slider Section -->
             <section class="categories-section">
+                <!-- Categories Titles -->
                 <div class="container" id="categories">
                     <h1 class="categories-title">
                         CATEGORÍAS
@@ -245,6 +261,9 @@
                         Encuentra el material ideal para tus proyectos.
                     </p>
                 </div>
+                <!-- Categories Titles -->
+
+                <!-- Categories Sliders  -->
                 <div class="row pb-5 categories-reveal">
                     <!-- Slider One -->
                     <div class="col-md-4 no-padding-slider">
@@ -288,7 +307,6 @@
                                 </div>
                             </div>
 
-
                         </div>
                         <div class="slider-data">
                             <div class="slider-header">
@@ -298,6 +316,7 @@
                                 elit.</p>
                         </div>
                     </div>
+                    <!-- /.Slider One -->
 
                     <!-- Slider Two -->
                     <div class="col-md-4 no-padding-slider">
@@ -349,6 +368,7 @@
                                 elit.</p>
                         </div>
                     </div>
+                    <!-- /.Slider Two -->
 
                     <!-- Slider Three -->
                     <div class="col-md-4 no-padding-slider">
@@ -402,20 +422,24 @@
                                 elit.</p>
                         </div>
                     </div>
+                    <!-- /.Slider Three -->
                 </div>
+                <!-- Categories Sliders  -->
             </section>
-            <!-- Slider Section End -->
+            <!-- /.Slider Section -->
 
-            <!-- Start Contact Us Section -->
+            <!-- Contact Us Section -->
             <div class="container" id="contact">
                 <section class="contact-section">
+                    <!-- Left Section -->
                     <div class="contact-left">
+                        <!-- Contact Titles -->
                         <h1 class="contact-title">
                             CONTACTO
                         </h1>
-                        {{-- <p class="contact-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                        </p> --}}
+                        <!-- /.Contact Titles -->
+
+                        <!-- Contact Items -->
                         <div class="contact-content">
                             <div class="contanct-items">
                                 <i class="bi bi-envelope-fill fs-3 text-primary-red"></i>
@@ -445,22 +469,25 @@
                                 </p>
                             </div>
                         </div>
+                        <!-- /.Contact Items -->
                     </div>
+                    <!-- /.Left Section -->
+                    <!-- Right Section -->
                     <div class="contact-right">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.577186660071!2d-89.2263677198777!3d13.683454725675746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63304aef05fb9b%3A0x49730054de7f4352!2sMundo%20Cer%C3%A1mico!5e0!3m2!1ses!2ssv!4v1675017168642!5m2!1ses!2ssv"
                             width="600" height="450" style="border:0;box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);"
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- /.Right Section -->
                 </section>
             </div>
-            <!-- Contact Us Section End -->
-
+            <!-- /.Contact Us Section -->
 
         </main>
-        <!-- Main End -->
+        <!-- /.Main -->
 
-        <!-- Start Footer -->
+        <!-- Footer -->
         <footer class="footer bg-footer">
             <div class="container">
                 <div class="footer-items">
@@ -500,8 +527,9 @@
                 </div>
             </div>
         </footer>
-
+        <!-- /.Footer -->
     </div>
+    <!-- /.App -->
 </body>
 
 </html>
