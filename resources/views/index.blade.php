@@ -34,6 +34,7 @@
     <div id="app">
         <!-- Header -->
         <div class="banner header">
+            <!-- Header Navbar -->
             <nav class="navbar navbar-expand-md navbar-light bg-header" style="z-index: 1000">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/') }}">
@@ -71,9 +72,12 @@
                     </div>
                 </div>
             </nav>
+            <!-- /.Header Navbar -->
 
+            <!-- Header Content -->
             <div class="container">
                 <div class="header-items">
+                    <!-- Header Titles -->
                     <div class="header-text">
                         <h1 class="h-title"><span class="text-primary-red">Mundo</span> Céramico</h1>
                         <p class="h-subtitle">Líderes en pisos céramicos y acabados para la industria, el comercio
@@ -83,12 +87,16 @@
                         <a href="#news" target="" class="btn-header">Explorar Más <i
                                 class="bi bi-arrow-right fs-4"></i></a>
                     </div>
+                    <!-- /.Header Titles -->
+                    <!-- Header Image -->
                     <div class="header-image">
                         <img src="https://img.freepik.com/premium-photo/modern-style-kitchen-interior-design-with-dark-blue-wall-3d-rendering_41470-4082.jpg?w=826"
                             alt="header-img" class="header-img">
                     </div>
+                    <!-- /.Header Image -->
                 </div>
             </div>
+            <!-- /.Header Content -->
         </div>
         <!-- /.Header -->
 
