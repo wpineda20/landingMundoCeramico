@@ -366,7 +366,6 @@ html, body{
     align-items: center;
     gap: 18px;
     padding-bottom: 2rem;
-    
 }
 
 // Footer
@@ -383,7 +382,6 @@ html, body{
     font-weight: bold;
     color: $white;
     text-transform: uppercase;
-    
 }
 .text-regular-footer{
     font-size: $font-size-normal;
@@ -450,23 +448,23 @@ html, body{
 // WhastApp Button
 
 .btn-whatsapp{
-        position: fixed;
-        left: 1rem;
-        bottom: 1rem;
-        width: 80px;
-        height: 80px;
-        border-radius: 15px;
-        background-color: $green;
-        border: solid 5px $white !important;
-        color: $white;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 3rem;
-        z-index: 100;
-        text-decoration: none;
-        transition: 0.5s;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: $green;
+    border: solid 5px $white !important;
+    color: $white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    z-index: 100;
+    text-decoration: none;
+    transition: 0.5s;
     box-shadow: 3px 3px 1px 1px rgba(112, 111, 111, 0.75);
     -webkit-box-shadow: 3px 3px 1px 1px rgba(112, 111, 111, 0.75);
     -moz-box-shadow: 3px 3px 1px 1px rgba(112, 111, 111, 0.75);
