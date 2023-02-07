@@ -82,7 +82,7 @@
                         <h1 class="h-title"><span class="text-primary-red">Mundo</span> Céramico</h1>
                         <p class="h-subtitle">Líderes en pisos céramicos y acabados para la industria, el comercio
                             y el
-                            hogar con más de 30 años de experiencia.
+                            hogar con más de 35 años de experiencia.
                         </p>
                         <a href="#news" target="" class="btn-header">Explorar Más <i
                                 class="bi bi-arrow-right fs-4"></i></a>
@@ -109,9 +109,8 @@
             </button>
             <!-- /.Scroll To Top Button -->
 
-            <!-- WhatsApp Button -->
-            {{-- <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=50377001782" target="_blank"
-                title='Escribemos a nuestro WhatsApp!'>
+            <!-- WhatsApp Button 13.683100433823174, -89.22604320327598 -->
+            {{-- <a class="btn-whatsapp" href="" target="_blank" title='Escribemos a nuestro WhatsApp!'>
                 <i class="bi bi-whatsapp"></i>
             </a> --}}
             <!-- /.WhatsApp Button -->
@@ -191,8 +190,8 @@
                         SERVICIOS
                     </h1>
                     <p class="services-subtitle">
-                        15 % de descuento válido 20 y 26 de Enero. <br>
-                        Encuentra el material ideal para tus proyectos.
+                        Phasellus convallis enim nulla, ac euismod nunc ullamcorper<br>
+                        Ut commodo suscipit elit ac pulvinar.
                     </p>
                 </div>
                 <!-- /.Services Titles -->
@@ -265,8 +264,8 @@
                         CATEGORÍAS
                     </h1>
                     <p class="categories-subtitle">
-                        15 % de descuento válido 20 y 26 de Enero. <br>
-                        Encuentra el material ideal para tus proyectos.
+                        Maecenas congue quam quis metus dictum blandit. <br>
+                        Pellentesque habitant morbi tristique senectus.
                     </p>
                 </div>
                 <!-- Categories Titles -->
@@ -462,6 +461,12 @@
                                 </p>
                             </div>
                             <div class="contanct-items">
+                                <i class="bi bi-headset fs-2 text-primary-red"></i>
+                                <p class="contact-text mb-0">
+                                    +503 7700 1782
+                                </p>
+                            </div>
+                            <div class="contanct-items">
                                 <i class="bi bi-geo-alt-fill fs-3 text-primary-red"></i>
                                 <p class="contact-text mb-0">
                                     Autopista Sur, Reparto Los Héroes, Boulevard Los Próceres Nº1-A. 503 San Salvador,
@@ -476,6 +481,11 @@
                                     Domingo: CERRADO
                                 </p>
                             </div>
+                            <div class="contanct-items text-center">
+                                <a href="https://ul.waze.com/ul?ll=13.68323591%2C-89.22569990&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+                                    target="_blank" class="btn-waze">WAZE <img src="logos/icon-waze-download.png"
+                                        alt="waze button"></a>
+                            </div>
                         </div>
                         <!-- /.Contact Items -->
                     </div>
@@ -484,7 +494,7 @@
                     <div class="contact-right">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.577186660071!2d-89.2263677198777!3d13.683454725675746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63304aef05fb9b%3A0x49730054de7f4352!2sMundo%20Cer%C3%A1mico!5e0!3m2!1ses!2ssv!4v1675017168642!5m2!1ses!2ssv"
-                            width="600" height="450" style="border:0;box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);"
+                            width="600" height="500" style="border:0;box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);"
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- /.Right Section -->
@@ -506,7 +516,11 @@
                         </a>
                     </div>
                     <div class="footer-content">
-                        <p class="text-regular-footer mb-0">&copy; 2022 Mundo Céramico. All rights reserved</p>
+                        <p class="text-regular-footer mb-0">&copy; @php $currentYear = date('Y') @endphp
+                            {{$currentYear}} Mundo
+                            Céramico.
+                            Todos los derechos reservados.
+                        </p>
                     </div>
                     <div class="footer-content">
                         <div class="footer-social-icons">
