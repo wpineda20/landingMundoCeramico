@@ -35,8 +35,8 @@
 // Base 
 
 html, body{
-    font-family: 'Brandbe-Regular';
-    // font-family: $new-font-dm-serif; 
+    // font-family: 'Brandbe-Regular';
+    font-family: $new-font-dm-serif; 
     // font-family: $new-font-urbanits;
     overflow-x: hidden;
 }
@@ -73,8 +73,8 @@ html, body{
     font-size: $font-size-normal;
     text-transform: capitalize;
     box-shadow: none;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .nav-titles:hover {
     color: $grey !important;
@@ -117,8 +117,8 @@ html, body{
     text-align: left;
     line-height: $line-height;
     padding-bottom: 1.3rem;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .btn-header {
     color: $white;
@@ -173,23 +173,23 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .sale-text-bold{
     font-size:  $font-size-normal;
     font-weight: bold;
     text-align: center;
     color: $primaryBlue;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .sale-text-regular{
     font-size: $font-size-normal;
     text-align: center !important;
     color: $black;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .card{
     background-color: transparent !important;
@@ -225,8 +225,8 @@ html, body{
 .shop-banner-subtitle{
     color: $grey;
     font-size: $font-size-normal;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .btn-shop{
     color: $white;
@@ -241,8 +241,8 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    font-family: $new-font-roboto;  
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;  
+    font-family: $new-font-dm-sans;
 }
 .btn-shop:hover{
     color: $white;
@@ -277,8 +277,8 @@ html, body{
 .card-services-info {
     font-size: $font-size-normal;
     color: $black;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .card-services-subtitle{
     font-size: $font-size-normal;
@@ -286,8 +286,8 @@ html, body{
     font-weight: bold;
     color: $black;
     margin-top: 8px;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .services-content {
     width: 100%;
@@ -311,8 +311,8 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 
 // Categories
@@ -334,8 +334,8 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .slider-header{
     display: flex;
@@ -356,8 +356,8 @@ html, body{
     font-size: $font-size-normal;
     color: $primaryBlue;
     text-align: center;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .no-padding-slider{
     padding-left: 0;
@@ -415,8 +415,8 @@ html, body{
     font-size: $font-size-normal;
     color: $black;
     font-weight: bold;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .contanct-items{
     display: flex;
@@ -443,8 +443,8 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .btn-waze img{
     height: 46px;
@@ -474,8 +474,8 @@ html, body{
 .text-regular-footer{
     font-size: $font-size-normal;
     color: $white;
-    font-family: $new-font-roboto;
-    // font-family: $new-font-dm-sans;
+    // font-family: $new-font-roboto;
+    font-family: $new-font-dm-sans;
 }
 .footer-items{
     display: flex;
