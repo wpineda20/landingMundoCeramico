@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+// New Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// New DM Serif Display & DM Sans
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+
+// Ubanist
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
 // Vuetify
 @import "~vuetify/dist/vuetify.min.css";
 
@@ -20,9 +29,15 @@
 @import url("https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
+//Fonts Styles
+@import "_fonts";
+
 // Base 
+
 html, body{
-    font-family: $font-family-poppins;
+    // font-family: 'Brandbe-Regular';
+    // font-family: $new-font-dm-serif; 
+    font-family: $new-font-urbanits;
     overflow-x: hidden;
 }
 
@@ -54,9 +69,12 @@ html, body{
 
 .nav-titles {
     color: $white !important;
+    // font-size: 18px;
     font-size: $font-size-normal;
     text-transform: capitalize;
     box-shadow: none;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .nav-titles:hover {
     color: $grey !important;
@@ -89,6 +107,7 @@ html, body{
     color: $white;
     text-align: left;
     padding-bottom: 1.3rem;
+    
 }
 .h-subtitle {
     font-weight: normal;
@@ -98,6 +117,8 @@ html, body{
     text-align: left;
     line-height: $line-height;
     padding-bottom: 1.3rem;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .btn-header {
     color: $white;
@@ -112,6 +133,8 @@ html, body{
     transition: .5s, color .10s !important;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .btn-header:hover{
     color: $white;
@@ -150,17 +173,23 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .sale-text-bold{
     font-size:  $font-size-normal;
     font-weight: bold;
     text-align: center;
     color: $primaryBlue;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .sale-text-regular{
     font-size: $font-size-normal;
     text-align: center !important;
     color: $black;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .card{
     background-color: transparent !important;
@@ -196,6 +225,8 @@ html, body{
 .shop-banner-subtitle{
     color: $grey;
     font-size: $font-size-normal;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .btn-shop{
     color: $white;
@@ -210,6 +241,8 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
+    // font-family: $new-font-roboto;  
+    // font-family: $new-font-dm-sans;
 }
 .btn-shop:hover{
     color: $white;
@@ -244,6 +277,8 @@ html, body{
 .card-services-info {
     font-size: $font-size-normal;
     color: $black;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .card-services-subtitle{
     font-size: $font-size-normal;
@@ -251,6 +286,8 @@ html, body{
     font-weight: bold;
     color: $black;
     margin-top: 8px;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .services-content {
     width: 100%;
@@ -274,6 +311,8 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 
 // Categories
@@ -295,6 +334,8 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .slider-header{
     display: flex;
@@ -315,6 +356,8 @@ html, body{
     font-size: $font-size-normal;
     color: $primaryBlue;
     text-align: center;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .no-padding-slider{
     padding-left: 0;
@@ -372,6 +415,8 @@ html, body{
     font-size: $font-size-normal;
     color: $black;
     font-weight: bold;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .contanct-items{
     display: flex;
@@ -398,6 +443,8 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .btn-waze img{
     height: 46px;
@@ -427,6 +474,8 @@ html, body{
 .text-regular-footer{
     font-size: $font-size-normal;
     color: $white;
+    // font-family: $new-font-roboto;
+    // font-family: $new-font-dm-sans;
 }
 .footer-items{
     display: flex;
@@ -541,7 +590,7 @@ html, body{
         padding-top: 2rem;
     }
     .sale-title{
-        font-size: $font-size-title-s;
+        font-size: $font-size-title-s !important;
     }
     .shop-banner{
         flex-direction: column;
@@ -573,6 +622,12 @@ html, body{
     .categories-title {
         font-size: $font-size-title-s !important;
     }
+    .contact-title {
+        font-size: $font-size-title-s !important;
+    }
+    .sale-subtitle{
+        font-size: $font-size-normal-s !important;
+    }
     .header{
         min-height: 30rem;
     }
@@ -596,11 +651,11 @@ html, body{
 /* Extra small devices (Ipads, 600px and down) */
 @media only screen and (max-width: 820px) {
     .header {
-        min-height: 36rem !important;
-        height: 12rem !important;
+        min-height: 34rem !important;
+        // height: 12rem !important;
     }
     .header-text{
-        margin-top: 4rem !important;
+        // margin-top: 4rem !important;
     }
     .header-img{
         height: 18rem !important;
@@ -665,8 +720,14 @@ html, body{
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
+@media only screen and (min-width: 1400px) {
+    .header-img {
+        height: 34rem;
+        margin-top: 14rem;
+    }
+    .header-text{
+        margin-top: 10rem;
+    }
 }
 
 /* Between 768px and 820px */

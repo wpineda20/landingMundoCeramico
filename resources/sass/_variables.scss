@@ -1,22 +1,45 @@
 // Body
 $body-bg: #f8fafc;
 
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$line-height: 30px;
+
 // Typography
 $font-family-times: 'Times New Roman';
 $font-family-candara: 'Candara';
 $font-family-poppins: 'Poppins', sans-serif;
 
-// Sizes
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+// Roboto
+$new-font-roboto:'Roboto', sans-serif;
+
+// DM Serif Display & DM Sans
+$new-font-dm-serif:'DM Serif Display', serif;
+$new-font-dm-sans:'DM Sans', sans-serif;
+
+// Urbanist
+$new-font-urbanits: 'Urbanist', sans-serif;
+
+//Default Sizes
 $font-size-title: 50px;
 $font-size-subtitle: 30px;
-$font-size-normal: 16px;
-$line-height: 30px;
+$font-size-normal: 18px;
 
-// Sizes Small Devices
+// Default Sizes Small Devices
 $font-size-title-s: 32px;
-$font-size-normal-s: 16px;
+$font-size-normal-s: 18px;
+
+//Brandbe
+// $font-size-title: 75px;
+// $font-size-subtitle: 36px;
+// $font-size-normal: 20px;
+
+// Sizes Small Devices - Brandbe
+// $font-size-title-s: 60px;
+// $font-size-normal-s: 20px;
+
+
+
 
 // Colors
 $green: #19D42C;

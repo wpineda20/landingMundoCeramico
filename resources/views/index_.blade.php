@@ -79,7 +79,7 @@
                 <div class="header-items">
                     <!-- Header Titles -->
                     <div class="header-text">
-                        <h1 class="h-title"><span class="text-primary-red">MUNDO</span> CÉRAMICO</h1>
+                        <h1 class="h-title"><span class="text-primary-red">Mundo</span> Céramico</h1>
                         <p class="h-subtitle">Líderes en pisos céramicos y acabados para la industria, el comercio
                             y el
                             hogar con más de 35 años de experiencia.
