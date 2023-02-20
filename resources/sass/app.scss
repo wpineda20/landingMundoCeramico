@@ -35,9 +35,9 @@
 // Base 
 
 html, body{
-    // font-family: 'Brandbe-Regular';
+    font-family: 'Brandbe-Regular';
     // font-family: $new-font-dm-serif; 
-    font-family: $new-font-urbanits;
+    // font-family: $new-font-urbanits;
     overflow-x: hidden;
 }
 
@@ -73,7 +73,7 @@ html, body{
     font-size: $font-size-normal;
     text-transform: capitalize;
     box-shadow: none;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .nav-titles:hover {
@@ -117,7 +117,7 @@ html, body{
     text-align: left;
     line-height: $line-height;
     padding-bottom: 1.3rem;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .btn-header {
@@ -133,7 +133,7 @@ html, body{
     transition: .5s, color .10s !important;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .btn-header:hover{
@@ -173,7 +173,7 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .sale-text-bold{
@@ -181,14 +181,14 @@ html, body{
     font-weight: bold;
     text-align: center;
     color: $primaryBlue;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .sale-text-regular{
     font-size: $font-size-normal;
     text-align: center !important;
     color: $black;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .card{
@@ -225,7 +225,7 @@ html, body{
 .shop-banner-subtitle{
     color: $grey;
     font-size: $font-size-normal;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .btn-shop{
@@ -241,7 +241,7 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    // font-family: $new-font-roboto;  
+    font-family: $new-font-roboto;  
     // font-family: $new-font-dm-sans;
 }
 .btn-shop:hover{
@@ -277,7 +277,7 @@ html, body{
 .card-services-info {
     font-size: $font-size-normal;
     color: $black;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .card-services-subtitle{
@@ -286,7 +286,7 @@ html, body{
     font-weight: bold;
     color: $black;
     margin-top: 8px;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .services-content {
@@ -311,7 +311,7 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 
@@ -334,7 +334,7 @@ html, body{
     line-height: $line-height;
     color: $black;
     text-align: center;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .slider-header{
@@ -356,7 +356,7 @@ html, body{
     font-size: $font-size-normal;
     color: $primaryBlue;
     text-align: center;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .no-padding-slider{
@@ -415,7 +415,7 @@ html, body{
     font-size: $font-size-normal;
     color: $black;
     font-weight: bold;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .contanct-items{
@@ -443,7 +443,7 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .btn-waze img{
@@ -474,7 +474,7 @@ html, body{
 .text-regular-footer{
     font-size: $font-size-normal;
     color: $white;
-    // font-family: $new-font-roboto;
+    font-family: $new-font-roboto;
     // font-family: $new-font-dm-sans;
 }
 .footer-items{
