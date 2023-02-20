@@ -11,19 +11,19 @@
     <title>Mundo Céramico</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/manifest.js') }}" defer></script>
-    <script src="{{ asset('js/vendor.js') }}" defer></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/btnScrollToTop.js') }}" defer></script>
-    <script src="{{ asset('js/scrollreveal.min.js') }}" defer></script>
-    <script src="{{ asset('js/main.js') }}" defer></script>
+    <script src="{{ ('js/manifest.js') }}" defer></script>
+    <script src="{{ ('js/vendor.js') }}" defer></script>
+    <script src="{{ ('js/app.js') }}" defer></script>
+    <script src="{{ ('js/btnScrollToTop.js') }}" defer></script>
+    <script src="{{ ('js/scrollreveal.min.js') }}" defer></script>
+    <script src="{{ ('js/main.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css')}}" rel="stylesheet">
+    <link href="{{ ('css/app.css')}}" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="{{ ('img/layout-wtf.svg') }}">
