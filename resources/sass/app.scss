@@ -95,7 +95,7 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fdfbcc !important;
-    // background-image: url("/img/cabinet.jpg") !important;
+    background-image: url("/test/test.webp") !important;
     // background: linear-gradient(90deg, $primaryBlue 0%, $primaryRed 100%);
 }
 .header-text{
@@ -335,79 +335,53 @@ html, body{
     font-family: "SF-Pro-Regular";
 }
 
-// Categories
+// Shop Banner
 
-.categories-section{
-    // background-color: $white !important;
-    background: linear-gradient(90deg, #FFFFFF 0%, #F0F0F0 34.9%, #F0F0F0 87.5%);
-    padding-top: 4rem;
-}
-.categories-title {
-    font-weight: bold;
-    font-size: $font-size-title;
-    text-transform: uppercase;
-    color: $primaryBlue;
-    text-align: center;
-}
-.categories-subtitle {
-    font-size: $font-size-normal;
-    line-height: $line-height;
-    color: $black;
-    text-align: center;
-    // font-family: $new-font-roboto;
-    font-family: $new-font-dm-sans;
-}
-.slider-header{
+.shop-banner {
+    background-color: #161617;
+    border-radius: 0.625rem;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    padding: 2.5rem;
+    margin: 0px 12px;
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
 }
-.slider-header p {
+
+.shop-banner-title {
+    color: $white;
     font-size: $font-size-subtitle;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-.slider-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.slider-text-regular {
-    font-size: $font-size-normal;
-    color: $primaryBlue;
-    text-align: center;
-    // font-family: $new-font-roboto;
-    font-family: $new-font-dm-sans;
-}
-.no-padding-slider{
-    padding-left: 0;
-    padding-right: 0;
-}
-.carousel-inner .carousel-item img{
-    height: 480px !important;
-}
-.carousel-indicators [data-bs-target]{
-    width: 15px !important;
-    height: 15px !important;
-    background-color: $darkBlack !important;
-    background-clip: border-box !important;
-    opacity: 0.3 !important;
-    border-top: none !important;
-    border-bottom: none !important;
-}
-.carousel-indicators .active{
-    opacity: 1 !important;
-}
-.carousel-indicators [data-bs-slide]{
-    background-color: transparent !important;
-    opacity: 1 !important;
-}
-.slider-chevron{
-    filter: invert(0%) sepia(100%) saturate(14%) hue-rotate(273deg) brightness(99%) contrast(104%);
-    height: 20px;
-    font-weight: bold !important;
+    font-family: "SF-Pro-bold";
 }
 
+.shop-banner-subtitle {
+    color: $grey;
+    font-size: 20px;
+    font-family: "SF-Pro-Regular";
+}
+
+.btn-shop {
+    color: $white;
+    border: solid 1px $primaryRed;
+    background-color: $primaryRed;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    display: inline-flex;
+    font-size: $font-size-normal;
+    max-width: 260px;
+    gap: 8px;
+    font-family: "SF-Pro-Regular";
+    border-radius: 50px;
+}
+
+.btn-shop:hover {
+    color: $white;
+    // transform: translatey(-10px);
+    // -webkit-transform: translatey(-10px);
+    // -moz-transform: translatey(-10px);
+}
 // Contact section
 
 .contact-section{

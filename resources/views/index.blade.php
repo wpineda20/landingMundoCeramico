@@ -83,9 +83,9 @@
                         <h2 class="h-subtitle">Lorem ipsum dolor sit amet elit. <br> sit amet
                             consectetur adipisicing consectetur.
                         </h2>
-                        <p class="h-paragraph">
+                        {{-- <p class="h-paragraph">
                             Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.
-                        </p>
+                        </p> --}}
                         <div class="d-flex">
                             <a href="#categories" class="btn-header mx-auto">Explorar Más <i
                                     class="bi bi-chevron-right fs-5"></i></a>
@@ -159,6 +159,20 @@
                 <!-- /.Module -->
             </section>
             <!-- /.Blocks Section -->
+
+            <!-- Sale Banner -->
+            <div class="shop-banner">
+                <div class="shop-banner-item">
+                    <p class="shop-banner-title">Dictum Amet Praesent Lacus,<span class="fw-normal"> Est Lsac
+                            Loremtes</span>
+                    </p>
+
+                    <p class="shop-banner-subtitle">Officiis tenetur delectus nisi ipsum, nesciunt
+                        tempore provident?</p>
+                    <a href="#" target="_blank" class="btn-shop">TIENDA</a>
+                </div>
+            </div>
+            <!-- /.Sale Banner -->
 
             <!-- About section -->
             <section class="about-section" id="about">
