@@ -14,9 +14,6 @@
     <script src="{{ mix('js/manifest.js') }}" defer></script>
     <script src="{{ mix('js/vendor.js') }}" defer></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
-    {{-- <script src="{{ mix('js/btnScrollToTop.js') }}" defer></script> --}}
-    {{-- <script src="{{ mix('js/scrollreveal.min.js') }}" defer></script> --}}
-    {{-- <script src="{{ mix('js/main.js') }}" defer></script> --}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -37,16 +34,6 @@
             <!-- Header Navbar -->
             <nav class="navbar navbar-expand-md navbar-light bg-header" style="z-index: 1000">
                 <div class="container-fluid">
-                    {{-- <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="logos/logo_blanco_rombo_rojo.png" alt="logo mundo ceramico" class="" width="170"
-                            height="70">
-                    </a> --}}
-                    {{-- <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                        <i class="bi bi-grid-fill text-white fs-1"></i>
-                    </button> --}}
-
                     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
                         {{-- <ul class="navbar-nav me-auto">
@@ -83,9 +70,6 @@
                         <h2 class="h-subtitle">Lorem ipsum dolor sit amet elit. <br> sit amet
                             consectetur adipisicing consectetur.
                         </h2>
-                        {{-- <p class="h-paragraph">
-                            Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.
-                        </p> --}}
                         <div class="d-flex">
                             <a href="#categories" class="btn-header mx-auto">Explorar Más <i
                                     class="bi bi-chevron-right fs-5"></i></a>
@@ -108,7 +92,6 @@
                     <p class="module-text text-white mb-1">
                         Lorem ipsum amet consectetur elit <br> amet adipisicing
                     </p>
-                    {{-- <span class="text-black fs-5">amet consectetur adipisicing elit</span> --}}
                 </div>
                 <!-- /.Module -->
 
@@ -119,7 +102,6 @@
                         Lorem ipsum dolor sit, onsectetur adipisicing elit <br>
                         onsectetur adipisicing elit
                     </p>
-                    {{-- <span class="text-text-primary-blue fs-5">amet consectetur adipisicing elit</span> --}}
                 </div>
                 <!-- /.Module -->
                 <!-- Module -->
@@ -137,7 +119,6 @@
                     <p class="module-text mb-1">
                         Lorem ipsum dolor sit <br>amet consectetur adipisicing elit
                     </p>
-                    {{-- <span class="text-muted fs-5">amet consectetur adipisicing elit</span> --}}
                 </div>
                 <!-- /.Module -->
                 <!-- Module -->

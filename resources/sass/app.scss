@@ -35,9 +35,6 @@
 // Base 
 
 html, body{
-    // font-family: 'Brandbe-Regular';
-    // font-family: $new-font-dm-serif; 
-    // font-family: $new-font-urbanits;
     overflow-x: hidden;
 }
 
@@ -94,13 +91,11 @@ html, body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #fdfbcc !important;
+    // background-color: #fdfbcc !important;
     background-image: url("/test/test.webp") !important;
-    // background: linear-gradient(90deg, $primaryBlue 0%, $primaryRed 100%);
 }
 .header-text{
     z-index: 100;
-    // width: 30rem;
     padding: 3rem 1rem;
 }
 .h-title {
@@ -146,7 +141,7 @@ html, body{
     justify-content: center;
 }
 
-// Sale Section
+// Block Section
 .blocks-section{
     background: $white;
     display: grid;
@@ -155,19 +150,6 @@ html, body{
     grid-template-areas: "";
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 12px solid $white;
-}
-
-.module-content-f{
-    height: 80vh;
-    color: $primaryBlue;
-    background-color: #fbfbfd;
-    padding-top: 2rem;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("/test/img-10.jpg") !important;
-    cursor: pointer;
 }
 .module-content-a{
     height: 80vh;
@@ -178,33 +160,6 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/test/img-9.jpg") !important;
-    cursor: pointer;
-}
-.module-content-e{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 80vh;
-    color: $white;
-    padding-bottom: 2rem;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("/test/img-14.jpg") !important;
-}
-.module-content-d{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 80vh;
-    color: $white;
-    padding-bottom: 2rem;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("/test/img-13.jpg") !important;
     cursor: pointer;
 }
 .module-content-b{
@@ -230,6 +185,45 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/test/img-2.jpg") !important;
+    cursor: pointer;
+}
+.module-content-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    color: $white;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/test/img-13.jpg") !important;
+    cursor: pointer;
+}
+.module-content-e{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    color: $white;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/test/img-14.jpg") !important;
+}
+.module-content-f{
+    height: 80vh;
+    color: $primaryBlue;
+    background-color: #fbfbfd;
+    padding-top: 2rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/test/img-10.jpg") !important;
     cursor: pointer;
 }
 .module-title{
@@ -292,8 +286,8 @@ html, body{
     font-family: "SF-Pro-Regular";
 }
 
+// About Section
 .about-section {
-    // background-color: $red;
     padding: 12px;
 }
 .about-content{
@@ -349,19 +343,16 @@ html, body{
     margin: 0px 12px;
     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
 }
-
 .shop-banner-title {
     color: $white;
     font-size: $font-size-subtitle;
     font-family: "SF-Pro-bold";
 }
-
 .shop-banner-subtitle {
     color: $grey;
     font-size: 20px;
     font-family: "SF-Pro-Regular";
 }
-
 .btn-shop {
     color: $white;
     border: solid 1px $primaryRed;
@@ -375,13 +366,10 @@ html, body{
     font-family: "SF-Pro-Regular";
     border-radius: 50px;
 }
-
 .btn-shop:hover {
     color: $white;
-    // transform: translatey(-10px);
-    // -webkit-transform: translatey(-10px);
-    // -moz-transform: translatey(-10px);
 }
+
 // Contact section
 
 .contact-section{
