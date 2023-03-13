@@ -475,14 +475,82 @@ html, body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
 
-    .header-img {
+    .blocks-section {
+        grid-template-columns: repeat(1, 1fr);
+        border-bottom: 12px solid $white;
+    }
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .services-text{
+     margin-left: 0px;   
+    }
+    .services-img {
+        width: 100%;
+    }
+    .services-image {
+        height: 30rem;
+        width: 100%;
+        object-fit: cover
+    }
+    .services-text{
+        width: 100%;
+    }
+    .services-title{
+        padding-top: 2rem;
+        font-size: 30px;
+    }
+    .services-subtitle{
+        font-size: 50px;
+    }
+    .services-p{
+     font-size: 25px;   
+    }
+    .services-p br,
+    .services-subtitle br{
+        display: none;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-image {
+        height: 30rem;
+        width: 100%;
+        object-fit: cover
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-title{
+        padding-top: 2rem;
+        font-size: 30px;
+    }
+    .about-subtitle {
+        font-size: 50px;
+    }
+    .about-p {
+        font-size: 25px;
+    }
+    .about-p br,
+    .about-subtitle br{
         display: none;
     }
     .h-title {
         text-align: center;
         font-size: $font-size-title-s;
         width: 100%;
-        padding-top: 2rem;
+        // padding-top: 2rem;
     }
     .h-subtitle {
         text-align: center;
