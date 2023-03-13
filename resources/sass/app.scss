@@ -397,8 +397,6 @@ html, body{
     font-size: $font-size-normal;
     color: $black;
     font-weight: bold;
-    // font-family: $new-font-roboto;
-    font-family: $new-font-dm-sans;
 }
 .contanct-items{
     display: flex;
@@ -425,8 +423,6 @@ html, body{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    // font-family: $new-font-roboto;
-    font-family: $new-font-dm-sans;
 }
 .btn-waze img{
     height: 46px;
@@ -456,8 +452,6 @@ html, body{
 .text-regular-footer{
     font-size: $font-size-normal;
     color: $white;
-    // font-family: $new-font-roboto;
-    font-family: $new-font-dm-sans;
 }
 .footer-items{
     display: flex;
