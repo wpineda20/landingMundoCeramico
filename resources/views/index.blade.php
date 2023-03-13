@@ -14,9 +14,9 @@
     <script src="{{ mix('js/manifest.js') }}" defer></script>
     <script src="{{ mix('js/vendor.js') }}" defer></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
-    <script src="{{ mix('js/btnScrollToTop.js') }}" defer></script>
-    <script src="{{ mix('js/scrollreveal.min.js') }}" defer></script>
-    <script src="{{ mix('js/main.js') }}" defer></script>
+    {{-- <script src="{{ mix('js/btnScrollToTop.js') }}" defer></script> --}}
+    {{-- <script src="{{ mix('js/scrollreveal.min.js') }}" defer></script> --}}
+    {{-- <script src="{{ mix('js/main.js') }}" defer></script> --}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -36,33 +36,33 @@
         <div class="banner header">
             <!-- Header Navbar -->
             <nav class="navbar navbar-expand-md navbar-light bg-header" style="z-index: 1000">
-                <div class="container">
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                <div class="container-fluid">
+                    {{-- <a class="navbar-brand" href="{{ url('/') }}">
                         <img src="logos/logo_blanco_rombo_rojo.png" alt="logo mundo ceramico" class="" width="170"
                             height="70">
-                    </a>
+                    </a> --}}
                     {{-- <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                         <i class="bi bi-grid-fill text-white fs-1"></i>
                     </button> --}}
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
-                        <ul class="navbar-nav me-auto">
+                        {{-- <ul class="navbar-nav me-auto">
 
-                        </ul>
+                        </ul> --}}
 
                         <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link nav-titles" href="#news">Novedades</a>
+                                <a class="nav-link nav-titles" href="#categories">Categorías</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-titles" href="#about">Nosotros</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link nav-titles" href="#services">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-titles" href="#categories">Categorías</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link nav-titles" href="#contact">Contacto</a>
@@ -80,20 +80,18 @@
                     <!-- Header Titles -->
                     <div class="header-text">
                         <h1 class="h-title"><span class="text-primary-red">MUNDO</span> CÉRAMICO</h1>
-                        <p class="h-subtitle">Líderes en pisos céramicos y acabados para la industria, el comercio
-                            y el
-                            hogar con más de 35 años de experiencia.
+                        <h2 class="h-subtitle">Lorem ipsum dolor sit amet elit. <br> sit amet
+                            consectetur adipisicing consectetur.
+                        </h2>
+                        <p class="h-paragraph">
+                            Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.
                         </p>
-                        <a href="#news" target="" class="btn-header">Explorar Más <i
-                                class="bi bi-arrow-right fs-4"></i></a>
+                        <div class="d-flex">
+                            <a href="#categories" class="btn-header mx-auto">Explorar Más <i
+                                    class="bi bi-chevron-right fs-5"></i></a>
+                        </div>
                     </div>
                     <!-- /.Header Titles -->
-                    <!-- Header Image -->
-                    <div class="header-image">
-                        <img src="https://img.freepik.com/premium-photo/modern-style-kitchen-interior-design-with-dark-blue-wall-3d-rendering_41470-4082.jpg?w=826"
-                            alt="header-img" class="header-img">
-                    </div>
-                    <!-- /.Header Image -->
                 </div>
             </div>
             <!-- /.Header Content -->
@@ -102,341 +100,121 @@
 
         <!-- Main -->
         <main class="main">
+            <!-- Blocks Section -->
+            <section class="blocks-section" id="categories">
+                <!-- Module -->
+                <div class="module-content-d">
+                    <h2 class="module-title">Piso</h2>
+                    <p class="module-text text-white mb-1">
+                        Lorem ipsum amet consectetur elit <br> amet adipisicing
+                    </p>
+                    {{-- <span class="text-black fs-5">amet consectetur adipisicing elit</span> --}}
+                </div>
+                <!-- /.Module -->
 
-            <!-- Scroll To Top Button -->
-            <button class="btnScrollToTop" onclick="scrollToTop();">
-                <i class="bi bi-arrow-up"></i>
-            </button>
-            <!-- /.Scroll To Top Button -->
-
-            <!-- WhatsApp Button 13.683100433823174, -89.22604320327598 -->
-            {{-- <a class="btn-whatsapp" href="" target="_blank" title='Escribemos a nuestro WhatsApp!'>
-                <i class="bi bi-whatsapp"></i>
-            </a> --}}
-            <!-- /.WhatsApp Button -->
-
-            <!-- Sale Section -->
-            <section class="sale-section" id="news">
-                <!-- Sale Titles -->
-                <div class="container">
-                    <h1 class="sale-title">
-                        NOVEDADES
-                    </h1>
-                    <p class="sale-subtitle">
-                        15 % de descuento válido 20 y 26 de Enero. <br>
-                        Encuentra el material ideal para tus proyectos.
+                <!-- Module -->
+                <div class="module-content-b">
+                    <h2 class="module-title">Madera</h2>
+                    <p class="module-text text-black mb-1">
+                        Lorem ipsum dolor sit, onsectetur adipisicing elit <br>
+                        onsectetur adipisicing elit
+                    </p>
+                    {{-- <span class="text-text-primary-blue fs-5">amet consectetur adipisicing elit</span> --}}
+                </div>
+                <!-- /.Module -->
+                <!-- Module -->
+                <div class="module-content-c">
+                    <h2 class="module-title">Porcelanato</h2>
+                    <p class="module-text mb-1">
+                        Consectetur adipisicing elit
+                    </p>
+                    <span class="text-muted fs-5">amet consectetur adipisicing elit</span>
+                </div>
+                <!-- /.Module -->
+                <!-- Module -->
+                <div class="module-content-a">
+                    <h2 class="module-title">Azulejo</h2>
+                    <p class="module-text mb-1">
+                        Lorem ipsum dolor sit <br>amet consectetur adipisicing elit
+                    </p>
+                    {{-- <span class="text-muted fs-5">amet consectetur adipisicing elit</span> --}}
+                </div>
+                <!-- /.Module -->
+                <!-- Module -->
+                <div class="module-content-e">
+                    <h2 class="module-title">Mosaico</h2>
+                    <p class="module-text">
+                        Lorem ipsum dolor sit <br>amet consectetur adipisicing elit
                     </p>
                 </div>
-                <!-- /.Sale Titles -->
-                <!-- Sale Cards -->
-                <div class="container sale-reveal pb-5">
-                    <div class="row row-cols-1 row-cols-md-3 g-2 pt-4">
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="img/sink.jpg" class="card-img-top zoom" alt="sink">
-                                <div class="card-body">
-                                    <p class="sale-text-bold mb-0">Praesent dictum amet
-                                    </p>
-                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="img/kitchen.jpg" class="card-img-top zoom" alt="kitchen">
-                                <div class="card-body">
-                                    <p class="sale-text-bold mb-0">Praesent dictum amet
-                                    </p>
-                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="img/sink.jpg" class="card-img-top zoom" alt="sink">
-                                <div class="card-body">
-                                    <p class="sale-text-bold mb-0">Praesent dictum amet
-                                    </p>
-                                    <p class="sale-text-regular">est lacus accumsan vel lacus ac.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- /.Module -->
+                <!-- Module -->
+                <div class="module-content-f">
+                    <h2 class="module-title">Granito</h2>
+                    <p class="module-text mb-0">
+                        Lorem ipsum dolor sit
+                    </p>
+                    <span class="text-black fs-5">amet consectetur adipisicing elit</span>
                 </div>
-                <!-- /.Sale Cards -->
-                <!-- Sale Banner -->
-                <div class="container shop-banner">
-                    <div class="shop-banner-item">
-                        <p class="shop-banner-title">Dictum Amet Praesent Lacus,<span class="fw-normal"> Est Lsac
-                                Loremtes</span>
-                        </p>
-
-                        <p class="shop-banner-subtitle">Officiis tenetur delectus nisi ipsum, nesciunt
-                            tempore provident?</p>
-                    </div>
-                    <div class="shop-banner-item">
-                        <a href="#" target="_blank" class="btn-shop">TIENDA<i class="bi bi-cart"></i></a>
-                    </div>
-                </div>
-                <!-- /.Sale Banner -->
+                <!-- /.Module -->
             </section>
-            <!-- /.Sale Section -->
+            <!-- /.Blocks Section -->
+
+            <!-- About section -->
+            <section class="about-section" id="about">
+                <!-- About Titles -->
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="/img/img-hero.png" class="about-image" alt="servicios mundo ceramico">
+                    </div>
+                    <div class="about-text">
+                        <h3 class="about-title">ACERCA DE NOSOTROS</h3>
+                        <h1 class="about-subtitle">
+                            Ut Provide Act <br>
+                            Nunc Elit Phasellus
+                        </h1>
+                        <p class="about-p mb-0">
+                            Lorem ipsum convallis enim nulla, ac euismod nunc<br>
+                            Ut commodo suscipit elit ac pulvinar.
+                            Lorem ipsum convallis enim nulla, <br>
+                            ac euismod nunc ullamcorper
+                            Ut commodo suscipit elit ac pulvinar.
+                        </p>
+                    </div>
+                </div>
+                <!-- /.About Titles -->
+            </section>
+            <!-- /.About section -->
 
             <!-- Services section -->
-            <section class="services-section">
+            <section class="services-section" id="services">
                 <!-- Services Titles -->
-                <div class="container">
-                    <h1 class="services-title" id="services">
-                        SERVICIOS
-                    </h1>
-                    <p class="services-subtitle">
-                        Phasellus convallis enim nulla, ac euismod nunc ullamcorper<br>
-                        Ut commodo suscipit elit ac pulvinar.
-                    </p>
-                </div>
-                <!-- /.Services Titles -->
-                <!-- Services Cards -->
-                <div class="container service-reveal">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="card-services zoom" style="width: 18rem;">
-                                <div class="card-services-content">
-                                    <div class="card-services-icon">
-                                        <img src="/img/truck.svg"
-                                            style="filter: invert(11%) sepia(89%) saturate(5082%) hue-rotate(348deg) brightness(95%) contrast(122%);"
-                                            class="icon-services" alt="icon-services">
-                                    </div>
-                                    <div class="card-services-info">
-                                        <h4 class="card-services-subtitle">LOREM</h4>
-                                        <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
-                                            iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
-                                            reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-services zoom" style="width: 18rem;">
-                                <div class="card-services-content">
-                                    <div class="card-services-icon">
-                                        <img src="/img/currency-dollar.svg"
-                                            style="filter: invert(11%) sepia(89%) saturate(5082%) hue-rotate(348deg) brightness(95%) contrast(122%);"
-                                            class="icon-services" alt="icon-services">
-                                    </div>
-                                    <div class="card-services-info">
-                                        <h4 class="card-services-subtitle">IPSUM</h4>
-                                        <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
-                                            iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
-                                            reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-services zoom" style="width: 18rem;">
-                                <div class="card-services-content">
-                                    <div class="card-services-icon">
-                                        <img src="/img/check-circle.svg"
-                                            style="filter: invert(11%) sepia(89%) saturate(5082%) hue-rotate(348deg) brightness(95%) contrast(122%);"
-                                            class="icon-services" alt="icon-services">
-                                    </div>
-
-                                    <div class="card-services-info">
-                                        <h4 class="card-services-subtitle">DOLOR</h4>
-                                        <p class="mb-0"><span class="text-primary-red">Laborum quos,</span> molestias
-                                            iste suscipit soluta <span class="text-primary-red">fugiat</span> in dolorum
-                                            reprehenderit <span class="text-primary-red">voluptatum error?</span> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="services-content">
+                    <div class="services-text">
+                        <h3 class="services-title">SERVICIOS</h3>
+                        <h1 class="services-subtitle">
+                            Ut Provide Act <br>
+                            Nunc Elit Phasellus
+                        </h1>
+                        <p class="services-p mb-0">
+                            Lorem ipsum convallis enim nulla, ac euismod nunc<br>
+                            Ut commodo suscipit elit ac pulvinar.
+                            Lorem ipsum convallis enim nulla, <br>
+                            ac euismod nunc ullamcorper
+                            Ut commodo suscipit elit ac pulvinar.
+                        </p>
+                    </div>
+                    <div class="services-img">
+                        <img src="/test/img-6.jpg" class="services-image" alt="servicios mundo ceramico">
                     </div>
                 </div>
-                <!-- /.Services Cards -->
+                <!-- /.Services Titles -->
             </section>
             <!-- /.Services section -->
 
-            <!-- Slider Section -->
-            <section class="categories-section">
-                <!-- Categories Titles -->
-                <div class="container" id="categories">
-                    <h1 class="categories-title">
-                        CATEGORÍAS
-                    </h1>
-                    <p class="categories-subtitle">
-                        Maecenas congue quam quis metus dictum blandit. <br>
-                        Pellentesque habitant morbi tristique senectus.
-                    </p>
-                </div>
-                <!-- Categories Titles -->
-
-                <!-- Categories Sliders  -->
-                <div class="row pb-5 categories-reveal">
-                    <!-- Slider One -->
-                    <div class="col-md-4 no-padding-slider">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-
-                            <div class="carousel-indicators">
-
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                    {{-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> --}}
-                                    <img src="/img/chevron-left.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                    <img src="/img/chevron-right.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    {{-- <span class="carousel-control-next-icon" aria-hidden="true"></span> --}}
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/cuarzo-diamond-red.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-blanco-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-amarillo-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="slider-data">
-                            <div class="slider-header">
-                                <p>Piso</p>
-                            </div>
-                            <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
-                                elit.</p>
-                        </div>
-                    </div>
-                    <!-- /.Slider One -->
-
-                    <!-- Slider Two -->
-                    <div class="col-md-4 no-padding-slider">
-                        <div id="carouselExampleIndicatorsTwo" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
-                                    {{-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> --}}
-                                    <img src="/img/chevron-left.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsTwo"
-                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                    aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsTwo"
-                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsTwo"
-                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
-                                    <img src="/img/chevron-right.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    {{-- <span class="carousel-control-next-icon" aria-hidden="true"></span> --}}
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/cuarzo-blanco-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-diamond-red.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-amarillo-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="slider-data">
-                            <div class="slider-header">
-                                <p>Azulejo</p>
-                            </div>
-                            <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
-                                elit.</p>
-                        </div>
-                    </div>
-                    <!-- /.Slider Two -->
-
-                    <!-- Slider Three -->
-                    <div class="col-md-4 no-padding-slider">
-                        <div id="carouselExampleIndicatorsThree" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicatorsThree" data-bs-slide="prev">
-                                    {{-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> --}}
-                                    <img src="/img/chevron-left.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsThree"
-                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                    aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsThree"
-                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicatorsThree"
-                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicatorsThree" data-bs-slide="next">
-                                    {{-- <span class="carousel-control-next-icon" aria-hidden="true"></span> --}}
-                                    <img src="/img/chevron-right.svg" class="slider-chevron" alt="slider-chevron"
-                                        aria-hidden="true">
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/cuarzo-amarillo-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-blanco-diamante.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/cuarzo-diamond-red.jpg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="slider-data">
-                            <div class="slider-header">
-                                <p>Madera</p>
-                            </div>
-                            <p class="slider-text-regular">Lorem ipsum dolor sit amet, <br> consectetur adipiscing
-                                elit.</p>
-                        </div>
-                    </div>
-                    <!-- /.Slider Three -->
-                </div>
-                <!-- Categories Sliders  -->
-            </section>
-            <!-- /.Slider Section -->
 
             <!-- Contact Us Section -->
-            <div class="container" id="contact">
+            {{-- <div class="container" id="contact">
                 <section class="contact-section">
                     <!-- Left Section -->
                     <div class="contact-left">
@@ -499,7 +277,7 @@
                     </div>
                     <!-- /.Right Section -->
                 </section>
-            </div>
+            </div> --}}
             <!-- /.Contact Us Section -->
 
         </main>
