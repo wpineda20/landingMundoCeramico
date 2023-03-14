@@ -107,16 +107,16 @@
                 <!-- Module -->
                 <div class="module-content-c">
                     <h2 class="module-title">Porcelanato</h2>
-                    <p class="module-text mb-1">
+                    <p class="module-text mb-0">
                         Consectetur adipisicing elit
                     </p>
-                    <span class="text-muted fs-5">amet consectetur adipisicing elit</span>
+                    {{-- <p class="text-muted mb-0" style="font-size: 24px">amet consectetur adipisicing elit</p> --}}
                 </div>
                 <!-- /.Module -->
                 <!-- Module -->
                 <div class="module-content-a">
                     <h2 class="module-title">Azulejo</h2>
-                    <p class="module-text mb-1">
+                    <p class="module-text">
                         Lorem ipsum dolor sit <br>amet consectetur adipisicing elit
                     </p>
                 </div>
@@ -135,7 +135,7 @@
                     <p class="module-text mb-0">
                         Lorem ipsum dolor sit
                     </p>
-                    <span class="text-black fs-5">amet consectetur adipisicing elit</span>
+                    {{-- <p class="text-black" style="font-size: 24px">amet consectetur adipisicing elit</p> --}}
                 </div>
                 <!-- /.Module -->
             </section>
@@ -207,7 +207,6 @@
             </section>
             <!-- /.Services section -->
 
-
             <!-- Contact Us Section -->
             <!-- Services Cards -->
             <div class="contact-section" id="contact">
@@ -275,73 +274,6 @@
                     </div>
                 </div>
             </div>
-            <!-- /.Services Cards -->
-            {{-- <div class="container">
-                <section class="contact-section">
-                    <!-- Left Section -->
-                    <div class="contact-left">
-                        <!-- Contact Titles -->
-                        <h1 class="contact-title">
-                            CONTACTO
-                        </h1>
-                        <!-- /.Contact Titles -->
-
-                        <!-- Contact Items -->
-                        <div class="contact-content">
-                            <div class="contanct-items">
-                                <i class="bi bi-envelope-fill fs-3 text-primary-red"></i>
-                                <p class="contact-text mb-0">
-                                    servicioalcliente@mundo-ceramico.com
-                                </p>
-                            </div>
-                            <div class="contanct-items">
-                                <i class="bi bi-telephone-fill fs-3 text-primary-red"></i>
-                                <p class="contact-text mb-0">
-                                    +503 2254 5999
-                                </p>
-                            </div>
-                            <div class="contanct-items">
-                                <i class="bi bi-headset fs-2 text-primary-red"></i>
-                                <p class="contact-text mb-0">
-                                    +503 7700 1782
-                                </p>
-                            </div>
-                            <div class="contanct-items">
-                                <i class="bi bi-geo-alt-fill fs-3 text-primary-red"></i>
-                                <p class="contact-text mb-0">
-                                    Autopista Sur, Reparto Los Héroes, Boulevard Los Próceres Nº1-A. 503 San Salvador,
-                                    El Salvador
-                                </p>
-                            </div>
-                            <div class="contanct-items">
-                                <i class="bi bi-clock-fill fs-3 text-primary-red"></i>
-                                <p class="contact-text mb-0">
-                                    Lunes a Viernes: 8:00 am - 18:00 pm <br>
-                                    Sábado: 8:00 am - 2:00 pm <br>
-                                    Domingo: CERRADO
-                                </p>
-                            </div>
-                            <div class="contanct-items text-center">
-                                <a href="https://ul.waze.com/ul?ll=13.68323591%2C-89.22569990&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                                    target="_blank" class="btn-waze">WAZE <img src="logos/icon-waze-download.png"
-                                        alt="waze button"></a>
-                            </div>
-                        </div>
-                        <!-- /.Contact Items -->
-                    </div>
-                    <!-- /.Left Section -->
-                    <!-- Right Section -->
-                    <div class="contact-right">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.577186660071!2d-89.2263677198777!3d13.683454725675746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63304aef05fb9b%3A0x49730054de7f4352!2sMundo%20Cer%C3%A1mico!5e0!3m2!1ses!2ssv!4v1675017168642!5m2!1ses!2ssv"
-                            width="600" height="500" style="border:0;box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <!-- /.Right Section -->
-                </section>
-            </div> --}}
-            <!-- /.Contact Us Section -->
-
         </main>
         <!-- /.Main -->
 
@@ -380,7 +312,8 @@
                                 </a>
                             </span>
                             <span>
-                                <a href="#" target="_blank">
+                                <a href="https://www.pinterest.com/mundo_ceramico/mundo-ceramico-el-salvador/"
+                                    target="_blank">
                                     <img src="logos/pinterest-p.svg" alt="pinterest mundo ceramico" class="social-icon">
                                 </a>
                             </span>

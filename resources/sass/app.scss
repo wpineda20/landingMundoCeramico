@@ -517,6 +517,7 @@ html, body{
         font-size: 36px;
     }
     .module-text{
+        padding: 12px;
         font-size: 24px;
     }
 
@@ -607,6 +608,15 @@ html, body{
     .about-subtitle br{
         display: none;
     }
+    .card-contact-info{
+        font-size: 24px;
+    }
+    .contact-section{
+        margin: 0;
+    }
+    .card-contact-content {
+        padding: 16px;
+    }
 
     //Footer
 
@@ -631,26 +641,14 @@ html, body{
     .contact-section{
        padding: 1rem;
     }
-    // .contanct-items{
-    //     align-items: center;
-    //     justify-content: center;
-    //     flex-direction: column;
-    //     text-align: center;
-    //     padding-bottom: 1rem;
-    // }
-    // .contact-right{
-    //     padding-top: 2rem;
-    //     justify-content: center;
-    // }
+    .card-contact{
+        height: 22rem;
+    }
  }
 
 /* Extra small devices (Ipads, 600px and down) */
 @media only screen and (max-width: 820px) {
-    .header {
-        min-height: 34rem !important;
-        // height: 12rem !important;
-    }
- 
+   
     .header-img{
         height: 18rem !important;
         margin-top: 16rem !important;
@@ -696,19 +694,6 @@ html, body{
         flex-direction: column;
         gap: 10px;
     }
-    .contanct-items {
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .contact-right{
-        padding-top: 2rem;  
-    }
-    .contact-right, iframe {
-        width: 100% !important;
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -720,32 +705,28 @@ html, body{
     .header-text{
         margin-top: 10rem;
     }
+   
 }
 
 /* Between 768px and 820px */
 
-// @media screen and (min-width: 768px) and (max-width: 820px) {
-//     .header-text{
-//         margin-top: 12rem;
-//     }
-    
-//     .header-icons{
-//         margin-top: -8rem;
-//     }
-
-//     .header-img {
-//         height: 22rem;
-//         margin-top: 11rem;
-//     }
-    
-//     .h-title {
-//         font-size: 40px;
-//         margin-left: 1rem;
-//     }
-    
-//     .h-subtitle {
-//         font-size: 20px;
-//         margin-left: 1rem;
-//     }
-// }
+@media screen and (min-width: 767px) and (max-width: 821px) {
+    .header {
+        min-height: 34rem !important;
+    }
+    .module-content-a,
+    .module-content-b,
+    .module-content-c,
+    .module-content-d,
+    .module-content-e,
+    .module-content-f {
+        height: 50vh;
+    }
+    .services-image{
+        height: 30rem;
+    }
+    .about-image{
+        height: 30rem;
+    }
+}
 
