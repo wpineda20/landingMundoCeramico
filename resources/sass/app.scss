@@ -371,46 +371,56 @@ html, body{
 }
 
 // Contact section
-
 .contact-section{
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    background-color: $white;
+    padding: 2rem;
+    margin: 12px;
+}
+.card-contact {
+    width: 100% !important;
+    height: 20rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 6rem;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    transition: all .3s cubic-bezier(0, 0, .5, 1);
+    background-color: $white;
+    overflow: hidden;
+    white-space: normal;
+    border-radius: 18px;
 }
-.contact-title{
-    font-weight: bold;
-    font-size: $font-size-title;
-    text-transform: uppercase;
-    color: $primaryBlue;
-    text-align: center;
-}
-.contact-subtitle{
-    font-size: $font-size-normal;
-    line-height: $line-height;
-    color: $black;
-    text-align: center;
-}
-.contact-text{
-    font-size: $font-size-normal;
-    color: $black;
-    font-weight: bold;
-}
-.contanct-items{
+
+.card-contact-content {
+    padding: 30px;
     display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
-    gap: 18px;
-    padding-bottom: 1.5rem;
 }
+
+.card-contact-icon img {
+    height: 60px;
+}
+
+.card-contact-info {
+    font-size: $font-size-normal;
+    color: $black;
+}
+
+.card-contact-subtitle {
+    font-family: "SF-Pro-Bold";
+    font-size: 24px;
+    color: $primaryRed;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0;
+}
+
 .btn-waze{
     background-color: $waze;
     color: $black;
     border-radius: 100px;
     font-size: 18px;
     height: 55px;
-    padding: 12px 50px;
+    padding: 12px 30px;
     align-items: center;
     border: $white 3px solid;
     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
@@ -420,18 +430,18 @@ html, body{
     justify-content: center;
     letter-spacing: 0.3px;
     text-decoration: unset;
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
+    // transition: .5s, color .10s;
+    // -webkit-transition: .5s, color .10s;
+    // -moz-transition: .5s, color .10s;
 }
 .btn-waze img{
     height: 46px;
 }
 .btn-waze:hover{
     color: $black;
-    transform: translatey(-10px);
-    -webkit-transform: translatey(-10px);
-    -moz-transform: translatey(-10px);
+    // transform: translatey(-10px);
+    // -webkit-transform: translatey(-10px);
+    // -moz-transform: translatey(-10px);
 }
 
 // Footer
@@ -617,21 +627,23 @@ html, body{
     .header{
         min-height: 30rem;
     }
+    .card-contact{
+        height: 21rem;
+    }
     .contact-section{
-        flex-direction: column;
-        gap: 10px;
+       padding: 1rem;
     }
-    .contanct-items{
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .contact-right{
-        padding-top: 2rem;
-        justify-content: center;
-    }
+    // .contanct-items{
+    //     align-items: center;
+    //     justify-content: center;
+    //     flex-direction: column;
+    //     text-align: center;
+    //     padding-bottom: 1rem;
+    // }
+    // .contact-right{
+    //     padding-top: 2rem;
+    //     justify-content: center;
+    // }
  }
 
 /* Extra small devices (Ipads, 600px and down) */

@@ -209,7 +209,74 @@
 
 
             <!-- Contact Us Section -->
-            {{-- <div class="container" id="contact">
+            <!-- Services Cards -->
+            <div class="contact-section" id="contact">
+                <div class="container service-reveal">
+                    <div class="row row-cols-1 row-cols-md-3 g-5">
+                        <div class="col">
+                            <div class="card-contact zoom" style="width: 18rem;">
+                                <div class="card-contact-content">
+                                    <div class="card-contact-icon">
+                                        <img src="/logos/map-marker-alt-solid.svg"
+                                            style="filter: invert(5%) sepia(31%) saturate(6815%) hue-rotate(209deg) brightness(90%) contrast(104%);"
+                                            class="icon-contact" alt="icon-contact">
+                                    </div>
+                                    <div class="card-contact-info">
+                                        <h4 class="card-contact-subtitle">Ubicación</h4>
+                                        <p class=" text-center">Mundo Cerámico, Boulevar los proceres, 1-A, San
+                                            Salvador</p>
+                                        <div class="text-center">
+                                            <a href="https://ul.waze.com/ul?ll=13.68323591%2C-89.22569990&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+                                                target="_blank" class="btn-waze">WAZE <img
+                                                    src="logos/icon-waze-download.png" alt="waze button"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-contact zoom" style="width: 18rem;">
+                                <div class="card-contact-content">
+                                    <div class="card-contact-icon">
+                                        <img src="/logos/paper-plane-regular.svg"
+                                            style="filter: invert(5%) sepia(31%) saturate(6815%) hue-rotate(209deg) brightness(90%) contrast(104%);"
+                                            class="icon-contact" alt="icon-contact">
+                                    </div>
+                                    <div class="card-contact-info">
+                                        <h4 class="card-contact-subtitle">Contáctanos</h4>
+                                        <p class="text-center mb-0">mundoceramico@yahoo.com</p>
+                                        <p class="text-center mb-0">+503 2254 5999</p>
+                                        <p class="text-center mb-0">+503 7700 1782</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-contact zoom" style="width: 18rem;">
+                                <div class="card-contact-content">
+                                    <div class="card-contact-icon">
+                                        <img src="/logos/calendar-alt-regular.svg"
+                                            style="filter: invert(5%) sepia(31%) saturate(6815%) hue-rotate(209deg) brightness(90%) contrast(104%);"
+                                            class="icon-contact" alt="icon-contact">
+                                    </div>
+
+                                    <div class="card-contact-info">
+                                        <h4 class="card-contact-subtitle">Horarios</h4>
+                                        <p class="text-center mb-2"> 8:00 am - 6:00 pm <br>
+                                            Lunes - Viernes
+                                        </p>
+                                        <p class="text-center mb-0"> 8:00 am - 2:00 pm <br>
+                                            Sabado
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.Services Cards -->
+            {{-- <div class="container">
                 <section class="contact-section">
                     <!-- Left Section -->
                     <div class="contact-left">
