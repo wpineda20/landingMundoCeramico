@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Mundo Céramico</title>
+    <title>Mundo Cerámico</title>
 
     <!-- Scripts -->
     <script src="{{ mix('js/manifest.js') }}" defer></script>
@@ -66,7 +66,7 @@
                 <div class="header-items">
                     <!-- Header Titles -->
                     <div class="header-text">
-                        <h1 class="h-title"><span class="text-primary-red">MUNDO</span> CÉRAMICO</h1>
+                        <h1 class="h-title"><span class="text-primary-red">MUNDO</span> CERÁMICO</h1>
                         <h2 class="h-subtitle">Lorem ipsum dolor sit amet elit. <br> sit amet
                             consectetur adipisicing consectetur.
                         </h2>
@@ -290,7 +290,7 @@
                     <div class="footer-content">
                         <p class="text-regular-footer mb-0">&copy; @php $currentYear = date('Y') @endphp
                             {{$currentYear}} Mundo
-                            Céramico.
+                            Cerámico.
                             Todos los derechos reservados.
                         </p>
                     </div>
