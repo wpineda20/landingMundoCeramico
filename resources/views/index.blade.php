@@ -42,6 +42,12 @@
 
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav">
+                            {{-- <li class="nav-item">
+                                <a class="navbar-brand" href="{{ url('/') }}">
+                                    <img src="logos/logo_blanco_rombo_rojo.png" style="opacity: 1" class=""
+                                        alt="logo mundo ceramico" class="" width="75" height="35">
+                                </a>
+                            </li> --}}
                             <li class="nav-item">
                                 <a class="nav-link nav-titles" href="#categories">Categorías</a>
                             </li>
@@ -76,6 +82,12 @@
                         </div>
                     </div>
                     <!-- /.Header Titles -->
+                </div>
+                <div class="header-logo">
+                    <a class="" href="{{ url('/') }}">
+                        <img src="logos/logo_azul_negro_rombo_rojo.png" style="opacity: 1" class=""
+                            alt="logo mundo ceramico" class="" width="190" height="100">
+                    </a>
                 </div>
             </div>
             <!-- /.Header Content -->
@@ -284,7 +296,7 @@
                     <div class="footer-content">
                         <a class="navbar-brand" href="{{ url('/') }}">
                             <img src="logos/logo_blanco_rombo_rojo.png" class="mb-2" alt="logo mundo ceramico" class=""
-                                width="170" height="70">
+                                width="180" height="80">
                         </a>
                     </div>
                     <div class="footer-content">

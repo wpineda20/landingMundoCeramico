@@ -240,6 +240,11 @@ html, body{
     letter-spacing: .012em;
     font-family: "SF-Pro-Regular";
 }
+.header-logo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4em 5rem 0rem 4rem;
+}
 
 // Services
 
@@ -498,6 +503,10 @@ html, body{
     .h-subtitle,
     .btn-header {
         font-size: 24px;
+    }
+
+    .header-logo{
+        padding: 0;
     }
 
     //Block Section
