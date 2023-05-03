@@ -97,8 +97,8 @@
 
                 <!-- Module -->
                 <div class="module-content-b">
-                    <h2 class="module-title">Madera</h2>
-                    <p class="module-text text-black mb-1">
+                    <h2 class="module-title text-primary-blue">Madera</h2>
+                    <p class="module-text text-primary-blue mb-1">
                         Lorem ipsum dolor sit, onsectetur adipisicing elit <br>
                         onsectetur adipisicing elit
                     </p>
@@ -106,7 +106,7 @@
                 <!-- /.Module -->
                 <!-- Module -->
                 <div class="module-content-c">
-                    <h2 class="module-title">Porcelanato</h2>
+                    <h2 class="module-title text-primary-blue">Porcelanato</h2>
                     <p class="module-text mb-0">
                         Consectetur adipisicing elit
                     </p>

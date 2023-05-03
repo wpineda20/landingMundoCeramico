@@ -100,7 +100,7 @@ html, body{
 }
 .h-title {
     text-transform: capitalize;
-    color: $black;
+    color: $primaryBlue;
     text-align: center;
     font-size: 50px;
     font-family: "SF-Pro-Bold";
@@ -109,7 +109,7 @@ html, body{
     font-size: 28px;
     text-align: center;
     line-height: 1.16667;
-    color: $black;
+    color: $primaryBlue;
     letter-spacing: .009em;
     font-family: "SF-Pro-Regular";
     margin-bottom: 1rem;
@@ -231,6 +231,7 @@ html, body{
     font-weight: 600;
     letter-spacing: .002em;
     font-family: "SF-Pro-Bold";
+    // color: $primaryBlue;
 }
 .module-text{
     font-size: 22px;
@@ -331,7 +332,7 @@ html, body{
 // Shop Banner
 
 .shop-banner {
-    background-color: #161617;
+    background-color: $primaryBlue;
     border-radius: 0.625rem;
     display: flex;
     justify-content: center;
