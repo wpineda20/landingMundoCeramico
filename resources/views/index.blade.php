@@ -72,6 +72,10 @@
                 <div class="header-items">
                     <!-- Header Titles -->
                     <div class="header-text">
+                        <a class="header-logo" href="{{ url('/') }}">
+                            <img src="logos/logo_azul_negro_rombo_rojo.png" class="text-center"
+                                alt="logo mundo ceramico" class="" width="180" height="90">
+                        </a>
                         <h1 class="h-title"><span class="text-primary-red">MUNDO</span> CERÁMICO</h1>
                         <h2 class="h-subtitle">Lorem ipsum dolor sit amet elit. <br> sit amet
                             consectetur adipisicing consectetur.
@@ -83,12 +87,8 @@
                     </div>
                     <!-- /.Header Titles -->
                 </div>
-                <div class="header-logo">
-                    <a class="" href="{{ url('/') }}">
-                        <img src="logos/logo_azul_negro_rombo_rojo.png" style="opacity: 1" class=""
-                            alt="logo mundo ceramico" class="" width="190" height="100">
-                    </a>
-                </div>
+                {{-- <div class="header-logo">
+                </div> --}}
             </div>
             <!-- /.Header Content -->
         </div>

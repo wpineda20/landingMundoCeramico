@@ -96,7 +96,7 @@ html, body{
 }
 .header-text{
     z-index: 100;
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
 }
 .h-title {
     text-transform: capitalize;
@@ -242,8 +242,7 @@ html, body{
 }
 .header-logo{
     display: flex;
-    justify-content: flex-end;
-    padding: 4em 5rem 0rem 4rem;
+    justify-content: center;
 }
 
 // Services
